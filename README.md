@@ -1,7 +1,7 @@
-## Building a Profile Hidden Markov Model for the detection of Kunitz Type Protease Inhibitor Domain
+# Building a Profile Hidden Markov Model for the detection of Kunitz Type Protease Inhibitor Domain
 
 This repository contains the implementation of a computational pipeline for building a Profile Hidden Markov Model (HMM) targeting the Kunitz-type protease inhibitor domain (Pfam ID: PF00014). The Kunitz domain is a specific, highly conserved structural motif found in various proteins. This study focuses on building a developed structure-informed Hidden Markov Model (HMM) to identify Kunitz inhibitory domain in protein sequences. The profile HMM was built using high-resolution structural data from PDB The model is then evaluated on both positive (true Kunitz) and negative (non-Kunitz) protein sequences to assess its detection performance. This project was developed as part of a Laboratory of Bioinformatics during my MSc in Bioinformatics at University of Bologna.
 
-All the process resides inside the `kunitz_nb folder`, the notebook file with the accurate description of the entirety of the project is called `kunitz_project_script.ipynb`. Inside `kunitz_nb folder` there are all the data utilized for the project.
+All the process resides inside `kunitz_nb` folder, the notebook file with the accurate description of the entirety projecvt pipeline is called [`kunitz_project_script.ipynb`](./kunitz_project_script.ipynb). Inside `kunitz_nb` there are all the data utilized for the project, the contents of every file is descripted inside the notebook.
 
 The `negative_kunitz.fasta` (negative set downloaded from Uniprot) it's not included for its big dimension. In the notebook its described the process to recreate it by your own.
